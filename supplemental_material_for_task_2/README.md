@@ -1,6 +1,6 @@
 ## Combined Predictive Power Metric (CPPM) - Mathematical Definition
 
-Let **X** represent the feature matrix and **y** the target variable (which can be multiple outputs in the case of multi-step forecasting).
+Let **$X$** represent the feature matrix and **y** the target variable (which can be multiple outputs in the case of multi-step forecasting).
 
 For each feature **f_i** in the feature matrix **X**, we compute three separate metrics that quantify its predictive power:
 
