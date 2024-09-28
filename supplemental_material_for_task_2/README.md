@@ -40,3 +40,17 @@ Where:
 - $CPPM_{\text{multioutput}}(f_i)$ is the **CPPM** for feature **f_i** when using the multioutput model.
 
 This final score provides a comprehensive measure of each feature’s predictive power, allowing us to rank the features accordingly.
+
+
+### Top 10 Most Important Variables:
+
+1. **Snow Albedo**
+2. **Vertical Transport of Cloud Frozen Water**
+3. **Surface Pressure**
+4. **Total Column Water Vapour**
+5. **Potential Evaporation**
+6. **Snow Evaporation**
+7. **Total Column Cloud Ice Water**
+8. **High Cloud Cover**
+9. **Leaf Area Index (LAI) for Low Vegetation**
+10. **Soil Temperature and Volumetric Water (Layer 4)**
