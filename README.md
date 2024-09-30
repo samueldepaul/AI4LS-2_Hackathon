@@ -26,6 +26,8 @@ In this `README.md`, we first explain how to train the model for a single locati
 1. Clone this repository:
    ```bash
    git clone https://github.com/samueldepaul/AI4LS-2_Hackathon.git
+   ```
+   (or just download and extract the zip file clicking on `Code`)
 
 2. Navigate to the local repository directory:
    `.../.../AI4LS-2_Hackathon`
