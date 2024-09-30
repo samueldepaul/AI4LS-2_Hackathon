@@ -133,7 +133,7 @@ This notebook focuses on model training and the selection of exogenous variables
 
 ## Re-training and Final Predictions
 
-**Notebook**: `Re-train_and_Make_Predictions.ipynb`
+**Notebook**: `Final_Model_Training_Prediction.ipynb`
 
 This final notebook re-trains the models with the best-performing hyperparameters and makes predictions for each location. 
 
