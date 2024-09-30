@@ -6,6 +6,58 @@ This task required the participants of each team to submit a video summarizing t
 <p align="center">
   <img src="misc/0930.gif" alt="Demo video" />
 </p>
+----
+
+This repository contains the code and resources for solving the GRACE time-series forecasting problem, part of the **AI for Life Sciences Hackathon (Second Edition)**. The main goal is to predict Total Water Storage (TWS) anomalies over a 5-year time horizon using exogenous variables such as climate, vegetation, and soil properties.
+
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Methodology](#methodology)
+3. [Jupyter Notebooks](#jupyter-notebooks)
+4. [Combined Predictive Power Metric (CPPM) - Definition](#combined-predictive-power-metric-(cppm)-definition)
+5. [Final Ranking of Exogenous Variables](final-ranking-of-expogenous-variables)
+---
+
+## Introduction
+
+The GRACE mission provides global data on TWS anomalies, measured in Liquid Water Equivalent (LWE) thickness. The challenge is to forecast these anomalies using exogenous variables over a 5-year period. This repository contains all the necessary code to preprocess the data, engineer features, rank exogenous variables, and generate predictions using state-of-the-art tree-based models such as **CatBoost**.
+
+## Methodology
+
+1. **Data Preprocessing**: 
+   - The dataset was provided as a global grid. Given its high resolution, preprocessing steps were necessary to reduce computational complexity. Hydrographic basins were used to group data, and around 170 basins were selected, covering 98% of the Earth's surface.
+   - The preprocessing also included windowing the data to generate lag features and future-step targets for each basin.
+
+2. **Feature Engineering**: 
+   - Over 1,000 exogenous variables were introduced using data from the Copernicus Climate Data Store. These variables included climate, vegetation, and soil properties.
+   - Atmospheric variables from the CMIP6 climate model were incorporated to capture future climate scenarios.
+
+3. **Exogenous Variable Filtering**: 
+   - Low-variance variables were removed to focus on the most impactful data.
+   - Highly correlated variables (correlation > 0.9) were also discarded to avoid duplication.
+
+4. **Model Training**: 
+   - CatBoost was chosen as the primary model due to its superior performance on tabular data and its ease of integration with SHAP values for feature importance analysis.
+   - Both multi-output models and independent stepwise models were trained to explore different approaches for predicting the future steps.
+
+5. **Ranking Predictive Variables**: 
+   - A custom metric called **Combined Predictive Power Metric (CPPM)** was designed to rank exogenous variables based on feature importance, SHAP values, and Recursive Feature Elimination (RFE).
+
+## Jupyter Notebooks
+
+The repository contains several Jupyter notebooks that cover different stages of the project:
+
+1. **GRACE_Data_Windowing.ipynb**: 
+   - This notebook explains the data windowing process, including the creation of lag variables and future-step targets.
+   
+2. **GRACE_Exogenous_Variable_Ranking.ipynb**: 
+   - Here, we apply various techniques to rank the exogenous variables based on their predictive power.
+
+3. **GRACE_Exogenous_Variables.ipynb**: 
+   - This notebook demonstrates the extraction and aggregation of exogenous variables from external datasets such as the Copernicus Climate Data Store.
+
+4. **GRACE_exog_vars.ipynb**: 
+   - Further exploration and refinement of exogenous variable selection.
 
 ## Combined Predictive Power Metric (CPPM) - Definition
 
@@ -51,7 +103,7 @@ Where:
 This final score provides a comprehensive measure of each feature’s predictive power, allowing us to rank the features accordingly.
 
 
-### Top 10 Most Important Variables:
+## Final Ranking of Exogenous Variables
 
 1. **Snow Albedo**
 2. **Vertical Transport of Cloud Frozen Water**
