@@ -117,7 +117,7 @@ This notebook focuses on model training and the selection of exogenous variables
 |                           | Lags +  Hisoric aggregates                                                                        |   0.0766   |      0.0556     |  0.0408  |  0.0623  |  0.0994  |
 |                           | Lags +  Historic aggregates + Geographical and climate variables                                  |   0.0786   |      0.0568     |  0.0424  |  0.0647  |  0.1023  |
 |                           | Lags + Historic aggregates + Geographical and climate variables +  Soil and demographic variables |   0.0759   |      0.0550     |  0.0413  |  0.0609  |  0.0986  |
-|                           | Combined*                                                                                         |   0.0751   |      0.0548     |  0.0406  |  0.0608  |   0.978  | 
+|                           | Combined                                                                                          |   0.0751   |      0.0548     |  0.0406  |  0.0608  |   0.978  | 
 
 *Metrics calculated on a generated blind test.
 
