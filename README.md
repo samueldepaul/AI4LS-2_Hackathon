@@ -138,6 +138,8 @@ This final notebook re-trains the models with the best-performing hyperparameter
 - **Final Predictions**: The code pipeline handles memory constraints and dynamically selects the best model for each location, making predictions that are uploaded to the Taikai platform.
 
 ## Results
+We cannot directly compare the results from the final models, but we can visualize how they look in relation to the rest of the time series:
+
 <p align="center">
   <img src="misc/pred_1.PNG" alt="Prediction 1" width="45%" />
   <img src="misc/pred_2.PNG" alt="Prediction 2" width="45%" />
@@ -146,3 +148,5 @@ This final notebook re-trains the models with the best-performing hyperparameter
   <img src="misc/pred_3.PNG" alt="Prediction 3" width="45%" />
   <img src="misc/pred_4.PNG" alt="Prediction 4" width="45%" />
 </p>
+
+We don't know how accurate they will be, but they certainly look promising!
