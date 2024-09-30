@@ -14,13 +14,21 @@ In this `README.md`, we first explain how to train the model for a single locati
 ## Table of Contents
 
 0. [How to Run](#how-to-run)
-1. Preliminary Remarks
+1. [Preliminary Remarks](#preliminary-remarks)
 2. [Data Processing and Cleaning](#data-processing-and-cleaning)
 4. [Exogenous Variables Integration](#exogenous-variables-integration)
 5. [Model and Exogenous Variables Selection](#model-and-exogenous-variables-selection)
 6. [Re-training and Final Predictions](#re-training-and-final-predictions)
 7. [Results](#results)
-8. [License](#license)
+
+## How to Run
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/samueldepaul/AI4LS-2_Hackathon.git
+
+## Preliminary Remarks
+- I've chosen to present the code using Jupyter notebooks because I believe that, especially for a competition setting, it offers a more visual, clear, and readable format. Notebooks allow for a step-by-step demonstration of the code, which helps to easily track the thought process behind each decision, and makes the methodology more transparent and easier to follow.
 
 ## Data Processing and Cleaning
 
@@ -63,8 +71,4 @@ This final notebook re-trains the models with the best-performing hyperparameter
 - **Best Models and Hyperparameters**: The best models and their configurations are loaded from a JSON file. 
 - **Final Predictions**: The code pipeline handles memory constraints and dynamically selects the best model for each location, making predictions that are uploaded to the Taikai platform.
 
-## How to Run
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/samueldepaul/AI4LS-2_Hackathon.git
+## Results
