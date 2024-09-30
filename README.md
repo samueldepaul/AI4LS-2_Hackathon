@@ -2,12 +2,15 @@
 
 ## Overview
 
-This repository contains my solution for **Task 2** of the **AI for Life Sciences (AI4LS) Hackathon - Second Edition**. The challenge involves identifying relevant **exogenous variables** to forecast GRACE time series data and predicting Total Water Storage (TWS) anomalies, represented by Liquid Water Equivalent (LWE) thickness, over a 5-year period.
+This repository contains my porposed solution for **Task 1** of the **AI for Life Sciences (AI4LS) Hackathon - Second Edition** and access to the code and documentation that generated the solution for **Task 2** through the folder `supplemental_material_for_task_2`. 
+
+The first task involved forecasting groundwater levels for specific locations within Austria, covering the period from January 2022 to June 2024.
 
 The repository includes various Jupyter notebooks documenting the entire process: from data processing and integration, to the selection of exogenous variables and model evaluation.
 
 ## Table of Contents
 
+0. Notas
 1. [Data Processing and Cleaning](#data-processing-and-cleaning)
 2. [Exogenous Variables Integration](#exogenous-variables-integration)
 3. [Model and Exogenous Variables Selection](#model-and-exogenous-variables-selection)
