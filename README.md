@@ -32,7 +32,8 @@ In this `README.md`, we first explain how to train the model for a single locati
 2. Navigate to the local repository directory:
    `.../.../AI4LS-2_Hackathon`
 
-3. Install the required libraries: (Recommended: Create a dedicated enviroment)
+3. Install the required libraries:
+   (Recommended: Create a dedicated enviroment, for example using Anaconda `conda create --name YOUR-ENV-NAME python=3.10.14`)
    ```bash
    pip install -r requirements.txt
    
