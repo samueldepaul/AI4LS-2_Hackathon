@@ -32,9 +32,10 @@ In this `README.md`, we first explain how to train the model for a single locati
    pip install -r requirements.txt
    
 3. Download the training dataset:
-   Since the file is quite big (680MB) we weren't able to upload it to GitHub. Download the file using the following Google Drive link and place it in the `auxiliary_data` folder.
+   
+   Since the file is quite big (680MB) we weren't able to upload it to GitHub. Download the file using the following Google Drive link and place it in the `auxiliary_data` folder: https://drive.google.com/file/d/1XdebJNdb9qdjF7JMyXYCMNi1-umvrHfj/view?usp=sharing
 
-4. Run the script:
+5. Run the script:
    ```bash
    python train_predict.py <id_loc>
    ```
