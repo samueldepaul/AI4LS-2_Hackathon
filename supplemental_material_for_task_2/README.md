@@ -3,7 +3,9 @@
 ## Video Solution of Task 2:
 This task required the participants of each team to submit a video summarizing their solution. My solution is available by clicking on the following link: https://drive.google.com/file/d/195k6ZjNAUabeaFG83punshN2iFvZJEUR/view?usp=sharing
 
+<p align="center">
 ![Sample of video](misc/0930.gif)
+</p>
 
 ## Combined Predictive Power Metric (CPPM) - Definition
 
