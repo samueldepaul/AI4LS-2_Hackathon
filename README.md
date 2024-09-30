@@ -1,4 +1,4 @@
-# AI4LS-2 Hackathon - Task 2 Solution
+# AI for Life Sciences Hackathon (2nd Edition) - Task 1 Solution
 
 ## Overview
 
@@ -8,16 +8,19 @@ The first task involved forecasting groundwater levels for specific locations wi
 
 The repository includes various Jupyter notebooks documenting the entire process: from data processing and integration, to the selection of exogenous variables and model evaluation.
 
+In this `README.md`, we first explain how to train the model for a single location and make the corresponding predictions. Afterward, we explain the methodology used to solve the challenges, while providing a brief summary of the content of each notebook that makes up the project.
+
+
 ## Table of Contents
 
-0. Notas
-1. [Data Processing and Cleaning](#data-processing-and-cleaning)
-2. [Exogenous Variables Integration](#exogenous-variables-integration)
-3. [Model and Exogenous Variables Selection](#model-and-exogenous-variables-selection)
-4. [Re-training and Final Predictions](#re-training-and-final-predictions)
-5. [How to Run](#how-to-run)
-6. [Results](#results)
-7. [License](#license)
+0. [How to Run](#how-to-run)
+1. Preliminary Remarks
+2. [Data Processing and Cleaning](#data-processing-and-cleaning)
+4. [Exogenous Variables Integration](#exogenous-variables-integration)
+5. [Model and Exogenous Variables Selection](#model-and-exogenous-variables-selection)
+6. [Re-training and Final Predictions](#re-training-and-final-predictions)
+7. [Results](#results)
+8. [License](#license)
 
 ## Data Processing and Cleaning
 
