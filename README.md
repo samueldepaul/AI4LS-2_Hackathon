@@ -63,7 +63,7 @@ This notebook focuses on model training and the selection of exogenous variables
 
 <p align="center">
   <img src="misc/graph_1.png" alt="Graph 1" width="40%" />
-  <img src="misc/graph_2.png" alt="Graph 2" width="40%" />
+  <img src="misc/graph_2.png" alt="Graph 2" width="49%" />
 </p>
 
 |                           |                                                                                                   | Mean SMAPE | SMAPE Std. Dev. | SMPAE Q1 | SMAPE Q2 | SMAPE Q3 |
@@ -93,3 +93,11 @@ This final notebook re-trains the models with the best-performing hyperparameter
 - **Final Predictions**: The code pipeline handles memory constraints and dynamically selects the best model for each location, making predictions that are uploaded to the Taikai platform.
 
 ## Results
+<p align="center">
+  <img src="misc/pred_1.png" alt="Prediction 1" width="45%" />
+  <img src="misc/pred_2.png" alt="Prediction 2" width="45%" />
+</p>
+<p align="center">
+  <img src="misc/pred_3.png" alt="Prediction 3" width="45%" />
+  <img src="misc/pred_4.png" alt="Prediction 4" width="45%" />
+</p>
