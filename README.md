@@ -94,10 +94,10 @@ This final notebook re-trains the models with the best-performing hyperparameter
 
 ## Results
 <p align="center">
-  <img src="misc/pred_1.png" alt="Prediction 1" width="45%" />
-  <img src="misc/pred_2.png" alt="Prediction 2" width="45%" />
+  <img src="misc/pred_1.PNG" alt="Prediction 1" width="45%" />
+  <img src="misc/pred_2.PNG" alt="Prediction 2" width="45%" />
 </p>
 <p align="center">
-  <img src="misc/pred_3.png" alt="Prediction 3" width="45%" />
-  <img src="misc/pred_4.png" alt="Prediction 4" width="45%" />
+  <img src="misc/pred_3.PNG" alt="Prediction 3" width="45%" />
+  <img src="misc/pred_4.PNG" alt="Prediction 4" width="45%" />
 </p>
