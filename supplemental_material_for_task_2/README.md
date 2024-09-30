@@ -6,7 +6,7 @@ This task required the participants of each team to submit a video summarizing t
 <p align="center">
   <img src="misc/0930.gif" alt="Demo video" />
 </p>
----
+
 
 This repository contains the code and resources for solving the GRACE time-series forecasting problem, part of the **AI for Life Sciences Hackathon (Second Edition)**. The main goal is to predict Total Water Storage (TWS) anomalies over a 5-year time horizon using exogenous variables such as climate, vegetation, and soil properties.
 
