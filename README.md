@@ -6,7 +6,7 @@ This repository contains my porposed solution for **Task 1** of the **AI for Lif
 
 The first task involved forecasting groundwater levels for specific locations within Austria, covering the period from January 2022 to June 2024.
 
-The repository includes various Jupyter notebooks documenting the entire process: from data processing and integration, to the selection of exogenous variables and model evaluation.
+The repository includes various Jupyter notebooks documenting the entire process: from data processing and integration, to the selection of exogenous variables and model evaluation. Additionally, we have created a script specifically focused on the final training and prediction process, which we introduce before diving into the notebooks, for those who want a quickstart.
 
 In this `README.md`, we first explain how to train the model for a single location and make the corresponding predictions. Afterward, we explain the methodology used to solve the challenges, while providing a brief summary of the content of each notebook that makes up the project.
 
@@ -26,6 +26,46 @@ In this `README.md`, we first explain how to train the model for a single locati
 1. Clone this repository:
    ```bash
    git clone https://github.com/samueldepaul/AI4LS-2_Hackathon.git
+
+2. Install the required libraries: (Recommended: Create a dedicated enviroment)
+   ```bash
+   pip install -r requirements.txt
+   
+3. Download the training dataset:
+   Since the file is quite big (680MB) we weren't able to upload it to GitHub. Download the file using the following Google Drive link and place it in the `auxiliary_data` folder.
+
+4. Run the script:
+   ```bash
+   python train_predict.py <id_loc>
+
+   (Replace the placeholder by the id of the location you desire to obtain predictions for)
+
+**Example execution:**
+```bash
+>python train_and_predict_gw.py 309021
+
+Loading datasets...
+
+Starting the process for id_loc 309021...
+
+Preparing data for id_loc 309021...
+
+Training model xgboost for id_loc 309021...
+
+Starting cross-validation training for xgboost...
+
+Training completed for xgboost
+
+Generating predictions for id_loc 309021...
+
+The predictions for the next 26 steps (Jan 2022 - Jun 2024) are:
+
+[226.52112 226.53053 226.70256 226.75009 226.87419 226.97194 226.56784 226.42398 226.46431 226.5989
+ 226.51512 226.59172 226.5986  226.639 226.60005 226.83292 226.83516 227.03792 226.79814 226.54314
+ 226.54156 226.398 226.41527 226.49992 226.51083 226.6074]
+
+ Process completed for id_loc 309021.  
+```
 
 ## Preliminary Remarks
 - I've chosen to present the code using Jupyter notebooks because I believe that, especially for a competition setting, it offers a more visual, clear, and readable format. Notebooks allow for a step-by-step demonstration of the code, which helps to easily track the thought process behind each decision, and makes the methodology more transparent and easier to follow.
