@@ -1,3 +1,8 @@
+## Video Solution of Task 2:
+This task required the participants of each team to submit a video summarizing their solution. My solution is available by clicking on the following link: https://drive.google.com/file/d/195k6ZjNAUabeaFG83punshN2iFvZJEUR/view?usp=sharing
+
+Añadir miniatura
+
 ## Combined Predictive Power Metric (CPPM) - Definition
 
 Let **$X$** represent the feature matrix and **$y$** the target variable (which can be multiple outputs in the case of multi-step forecasting).
