@@ -37,7 +37,7 @@ In this `README.md`, we first explain how to train the model for a single locati
 4. Run the script:
    ```bash
    python train_predict.py <id_loc>
-
+   ```
    (Replace the placeholder by the id of the location you desire to obtain predictions for)
 
 **Example execution:**
