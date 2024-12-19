@@ -1,3 +1,5 @@
+![AI for Life Science - 2nd Place](misc/2ndplace.png)
+
 # AI for Life Sciences Hackathon (2nd Edition) - Task 1 Solution
 
 ## Overview
